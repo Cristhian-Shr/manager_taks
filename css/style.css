@@ -29,4 +29,20 @@ body {
     text-decoration: none !important;
 }
 
+.rounded-10 {
+    border-radius: 15px;
+}
+
+.search {
+    margin-left: 5px;
+    border: none;
+    font-size: 24px;
+    color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+}
+
+.btn-black-b {
+    border: 2px solid black;
+}
+
 
