@@ -1,48 +1,49 @@
 body {
-    background-color: #000 !important;
+  background-color: #000 !important;
 }
 
 .btn-login {
-    width: 105px !important;
+  width: 105px !important;
 }
 
 .badge {
-    padding-left: 4px;
-    padding-right: 4px;
-    opacity: 0.7;
-    border-radius: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
+  opacity: 0.7;
+  border-radius: 8px;
 }
 
 .lowPriority {
-    background-color: green;
+  background-color: green;
+  color: #000000;
 }
 
 .mediumPriority {
-    background-color: yellow;
+  background-color: yellow;
+  color: #000000;
 }
 
 .highPriority {
-    background-color: red;
+  background-color: red;
+  color: #000000;
 }
 
 .text-decoration-none {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 .rounded-10 {
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 .search {
-    margin-left: 5px;
-    border: none;
-    font-size: 24px;
-    color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
-    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+  margin-left: 5px;
+  border: none;
+  font-size: 24px;
+  color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
 }
 
 .btn-black-b {
-    border: 2px solid black;
+  border: 2px solid black;
 }
-
-
