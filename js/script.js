@@ -265,5 +265,29 @@ function confirmDelete(result) {
 }
 
 function editTask(task) {
-  
+  let idCard = $("#id_card_" + task).val();
+  document.getElementById("task_id_edit").value = idCard;
+
+  let nameCard = $("#name_" + task).val();
+  document.getElementById("task_name_edit").value = nameCard;
+
+  let responsibleCard = $("#responsible_" + task).val();
+  document.getElementById("task_responsible_edit").value = responsibleCard;
+
+  let dateCard = $("#date_" + task).val();
+  let splitDate = dateCard.split("/");
+  let newDate = splitDate[2] + "-" + splitDate[1] + "-" + splitDate[0];
+
+  document.getElementById("task_date_edit").value = newDate;
+
+  console.log(newDate);
+
+  let descriptionCard = $("#description_" + task).val();
+  document.getElementById("task_description_edit").value = descriptionCard;
+
+  let priorityCard = $("#priority_" + task).val();
+  document.getElementById("task_priority_edit").value = priorityCard;
+
+  let statusCard = $("#status_" + task).val();
+  document.getElementById("task_status_edit").value = statusCard;
 }
